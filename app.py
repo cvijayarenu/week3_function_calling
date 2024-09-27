@@ -91,6 +91,7 @@ async def on_message(message: cl.Message):
     cl.user_session.set("message_history", message_history)
 
 def confirm_ticket_purchase(theater, movie, showtime):
+    return 
     
 
 if __name__ == "__main__":
